@@ -1,0 +1,67 @@
+.row {
+    margin-left: 20px;
+    color: #fff;
+}
+
+.posters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow-x: scroll;
+    
+}
+
+.posters::-webkit-scrollbar{
+    display:none; 
+    background-color: rgb(1, 1, 1,.4);
+}
+
+.posters::-webkit-scrollbar-thumb {
+    width: 100px;
+    background: rgb(99, 98, 98);
+    border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background:rgb(128, 128, 128,.4); 
+   
+}
+.poster {
+    max-height: 250px;
+    max-width: fit-content ;
+    margin-right: 10px;
+}
+.sm-poster {
+    max-height: 150px;
+    max-width: fit-content ;
+    margin-right: 10px;
+}
+/* #scroll-btn {
+    position: absolute;
+   
+    width: 300px;
+}
+
+
+#prev {
+    display: inline-block;
+    position: absolute; 
+    left: 0;
+    background-color: #ceaaaa;
+    padding: 5px;
+    cursor: pointer;
+    top: 10px;
+    font-weight: bold;
+}
+
+#next {
+    position: absolute;
+    right: 3px;
+    display: inline-block;
+    background-color: #ceaaaa;
+    padding: 5px;
+    cursor: pointer;
+    top: 10px;
+    font-weight: bold;
+} */
